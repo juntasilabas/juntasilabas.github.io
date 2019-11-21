@@ -1,2 +1,2 @@
-# juntasilabs.github.io
-Site Junta Sílabas
+http://juntasilabs.github.io
+
