@@ -1,0 +1,314 @@
+﻿body {
+    background-color: #ffffff;
+}
+
+a {
+    color:white;
+}
+a:hover, a:focus, a:active {
+color:white;
+text-decoration: underline white;
+
+}
+/*navbar*/
+.navbar-default .navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #4dc1ec;
+    font-size: 1em;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active {
+    color: #2790b6;
+}
+.navbar {
+   background-color: rgba(0, 0, 0, 0.7);
+   border: none;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-family: 'Open Sans', 'sans-serif';
+    text-align: center;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default navbar-nav>li>a:active, .navbar-default navbar-nav>li>a:focus {
+    color:#4dc1ec;
+}
+.navbar-default .navbar-toggle {
+    border: none;
+    color: white;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover, navbar-default .navbar-toggle:active {
+    color: #4dc1ec;
+    background-color: transparent;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
+.navbar .navbar-default .navbar-fixed-top container-fluid {
+    height: 20%;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+/* Tela welcome */
+.welcome {
+    text-align: center;
+    height: 100vh;
+    background: url(../img/welcome_screen.png) center;
+}
+.welcome h1 {
+    margin: auto auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 8em;
+    color: #4dc1ec;
+    text-shadow: 1px 0 10px #4dc1ec;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+.menu {
+    margin: 0 auto;
+    font-family: 'Play', sans-serif;
+    color: #4dc1ec;
+     
+}
+.menu:hover, .menu:active, .menu:focus {
+    text-decoration: none;
+    color: #4dc1ec;
+    text-shadow: 1px 0 5px #4dc1ec;
+}
+
+/*containers*/
+.dianmicas, .downlaod {
+    height: 100vh;
+}
+.oque {
+    background-color: #f3973a;
+    padding-bottom: 5em;
+}
+
+.ficha {
+    background-color: #f3973a;
+    padding-bottom: 3em;
+    padding-top: 2em;
+}
+.download{
+    margin-top: 7em;
+    padding-bottom: 5em;
+    background: #3e3488;
+}
+
+
+/*texto e título*/
+.texto {
+    /*background-color: black;*/
+    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.25em;
+    text-align: justify;
+    
+}
+.titulo {
+    padding: 1em;
+    padding-bottom:2em;
+    text-align: center;
+    font-family: 'Open Sans', 'sans-serif';
+    font-weight: 700;
+    color: black;
+   
+}
+.titulo2 {
+    padding-top: 1em;
+    text-align: center;
+    font-family: 'Open Sans', 'sans-serif';
+    font-weight: 700;
+    color: white;
+   
+}
+.titulo3 {
+    font-family: 'Open Sans', 'sans-serif';
+    font-weight: 700;
+
+}
+
+.subtitulo {
+    text-align: justify;
+    font-family: 'Open Sans', 'sans-serif';
+    font-weight: 600;
+    font-size: 1.35em;
+}
+
+.inicio {
+    color: #3f2206;
+    padding-right: 5em;
+}
+
+
+
+footer .container-fluid {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.jogar {
+    text-align: center;
+    margin-top: 15%;
+    padding-left: 5em;
+    padding-right: 5em;
+    color: white;
+}
+.jogar2 {
+    text-align: center;
+font-size: 2em;
+font-weight: 700;
+color: white;
+padding-bottom: 3em;
+}
+
+.jogar3{
+    text-align: center;
+    font-size: 1.4em;
+    padding-bottom: 3em;
+    color:white;
+}
+
+.tipos {
+    color: white;
+    font-weight: 600;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.logobarra {
+    display: inline;
+}
+
+.blocotexto {
+    padding-top: 10em;
+    padding-right: 10em;
+    padding-left: 10em;
+}
+.blocotextoalto {
+    padding-top: 20em;
+    padding-right: 10em;
+    padding-left: 10em;
+}
+
+.blocotexto2 {
+    padding-top: 10em;
+    padding-right: 10em;
+    padding-left: 10em;
+}
+
+.blocotexto2alto {
+    padding-top: 25em;
+    padding-right: 10em;
+    padding-left: 10em;
+}
+
+.blocotexto2medio {
+    padding-top: 20em;
+    padding-right: 10em;
+    padding-left: 10em;
+}
+
+.cartas {
+    background-color: #0380AD;
+padding-top: 3em;
+padding-bottom: 5em;
+}
+
+/*imagens*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35em;
+}
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+}
+.app {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 19vh;
+}
+
+.caca {
+    display: block;
+    padding-top: 23em;
+    margin-left: 1em;
+    margin-right: auto;
+    width: 35em;
+}
+
+.assimila {
+    display: block;
+    padding-top: 10em;
+    margin-left: auto;
+    margin-right: 1em;
+    width: 35em;
+}
+
+.tempo {
+    display: block;
+    padding-top: 15em;
+    margin-left: 5em;
+    margin-right: auto;
+    height: 50em;
+}
+
+.criacao {
+    display: block;
+    padding-top: 10em;
+    margin-left: auto;
+    margin-right: 1em;
+    width: 35em;
+}
+
+.livre {
+    display: block;
+    padding-top: 15em;
+    margin-left: 1em;
+    margin-right: auto;
+    width: 35em;
+}
+
+
+.vdlx {
+    display: block;
+    margin: auto auto;
+    width: 55em;
+    padding-bottom: 5em;
+}
+
+.imagem1 {
+    width: 40em;
+    display: block;
+    margin: auto auto;
+}
+
+.exp {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.textoficha, .subtexto {
+    font-family: 'open sans', sans-serif;
+    color: #884c10;
+}
+
+.textoficha, .subtexto, .titulo3 {
+    color: #4d2804;
+}
